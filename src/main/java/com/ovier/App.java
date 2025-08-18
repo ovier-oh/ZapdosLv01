@@ -1,11 +1,5 @@
 package com.ovier;
 
-/**
- * Hello world!
- *
- */
-
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
@@ -21,10 +15,10 @@ public class App {
         System.out.println("=== Generador of Settings JSON ==="); 
 
         // Solicitar datos al usuario 
-        System.out.print("Ingrese la marca: ");
+        System.out.print("Enter technology: ");
         String marca = scanner.nextLine(); 
 
-        System.out.print("Ingrese el dispositivo: "); 
+        System.out.print("Enter Rel_job: ");
         String dispositivo = scanner.nextLine();
         
         System.out.print("Ingrese el Id: ");
